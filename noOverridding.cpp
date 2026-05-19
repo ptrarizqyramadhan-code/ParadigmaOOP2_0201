@@ -8,3 +8,12 @@ public:
     {
         cout << "Hallo saya Function dari base class" << endl;
     }
+};
+class darivedClass : public baseClass
+{
+public:
+    void perkenalan1()
+    {
+        cout << "Hallo saya Function dari darived class";
+    }
+};
