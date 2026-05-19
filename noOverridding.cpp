@@ -17,3 +17,10 @@ public:
         cout << "Hallo saya Function dari darived class";
     }
 };
+int main()
+{
+    darivedClass a;
+    a.perkenalan1();
+
+    return 0;
+}
