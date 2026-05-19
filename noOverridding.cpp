@@ -1,18 +1,9 @@
-#include <iostream>
-using namespace std;
 
-class baseClass
-{
-public:
-    virtual void perkenalan()
-    {
-        cout << "Hallo saya Function dari base class" << endl;
-    }
 };
-class darivedClass : public baseClass
+int main()
 {
-public:
-    void perkenalan1()
-    {
-        cout << "Hallo saya Function dari darived class";
-    }
+    darivedClass a;
+    a.perkenalan1();
+
+    return 0;
+}
